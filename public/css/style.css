@@ -8,8 +8,8 @@ body{
   cursor: default;
 }
 
-.nav-item.active {
-  color: white !important;
+.nav-item .active {
+  color: #ddd !important;
 }
 
 

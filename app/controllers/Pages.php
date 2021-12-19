@@ -19,8 +19,8 @@
 
     public function about(){
       $data = [
-        'title' => 'About Us',
-        'description' => 'App to share posts with other users'
+        'title' => 'About This App',
+        'description' => 'Members-only App to share posts with other users'
       ];
 
       $this->view('pages/about', $data);

@@ -15,6 +15,8 @@
         <span class="invalid-feedback"><?php echo $data['body_err']; ?></span>
       </div>
       <input type="submit" class="btn btn-success" value="Submit">
+      <a href="<?php echo URLROOT; ?>/posts/show/<?php echo $data['id']; ?>" class="btn btn-warning ml-2">Cancel</a>
+
     </form>
   </div>
 <?php require APPROOT . '/views/inc/footer.php'; ?>

@@ -1,8 +1,10 @@
+<?php  $activepage = basename(__FILE__, ".php"); ?>
+
 <?php require APPROOT . '/views/inc/header.php'; ?>
   <div class="row">
     <div class="col-md-6 mx-auto">
       <div class="card card-body bg-light mt-5">
-        <?php flash('register_success'); ?>
+        <?php flash('register_success'); ?> 
         <h2>Login</h2>
         <p>Please fill in your credentials to log in</p>
         <form action="<?php echo URLROOT; ?>/users/login" method="post">
