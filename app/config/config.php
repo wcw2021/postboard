@@ -1,8 +1,8 @@
 <?php
   // DB Params
   define('DB_HOST', 'localhost');
-  define('DB_USER', '123');
-  define('DB_PASS', '123');
+  define('DB_USER', 'noname');
+  define('DB_PASS', 'nopass');
   define('DB_NAME', 'postboard');
 
   // App Root

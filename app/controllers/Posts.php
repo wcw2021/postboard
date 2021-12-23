@@ -122,7 +122,12 @@
 
     public function show($id){
       $post = $this->postModel->getPostById($id);
-      $user = $this->userModel->getUserById($post->user_id);
+        
+      if($post){
+        $user = $this->userModel->getUserById($post->user_id);
+      }else{
+        $user = '';
+      }
 
       $data = [
         'post' => $post,
